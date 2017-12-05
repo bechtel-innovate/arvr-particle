@@ -1,0 +1,28 @@
+{
+  "name": "particle_ar",
+  "version": "1.0.0",
+  "description": "hook",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bechtel-innovate/arvr-particle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bechtel-innovate/arvr-particle/issues"
+  },
+  "homepage": "https://github.com/bechtel-innovate/arvr-particle#readme",
+  "devDependencies": {
+    "surge": "latest",
+    "git-scripts": "0.2.1"
+  },
+  "git": {
+    "scripts": {
+      "pre-push": "surge --project ./ --domain http://silky-wash.surge.sh/"
+    }
+  }
+}
