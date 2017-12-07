@@ -524,6 +524,7 @@ p {
   width: 100%;
   display: block;
    -webkit-animation: slide 17s linear infinite;
+   position: relative;
 }
 @-webkit-keyframes slide {
     from { background-position: 0 0; }
@@ -933,7 +934,7 @@ ul.portfolio-image li .desc{
   width: 100%;
 }
 .bg-about {
-  background: url('../images/reza.jpg');
+  background: url('../images/remote.jpg');
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -979,7 +980,7 @@ ul.portfolio-image li .desc{
   height: 35px;
 }
 .wrap-about .head-about {
-  font-size: 13px;
+  font-size: 1em;
   line-height: 34px;
   letter-spacing: 0.5px;
   font-weight: 300;
@@ -1292,4 +1293,17 @@ ul.portfolio-image li .desc{
   background-size: cover;
   background-position: 50% 50%;
   background-repeat: no-repeat;
+}
+#clear{
+  background-color: #fff;
+  height: 20%;
+  width: 100%;
+  text-align: center;
+
+}
+#clear h1{
+  margin-top: 10%;
+  font-size: 3em;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 400;
 }

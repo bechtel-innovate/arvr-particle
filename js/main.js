@@ -27,11 +27,11 @@
       })
       $(this).addClass('active');
 
-      var target = this.hash;
-      $target = $(target);
+      var target = $(this.hash);
+      //$target = $(target);
       $('html, body').stop().animate({
-        'scrollTop': $target.offset().top+2
-      }, 500, 'swing', function () {
+        'scrollTop': target.offset().top
+      }, 800, 'swing', function () {
         window.location.hash = target;
         $(document).on("scroll", onScroll);
       });
@@ -39,7 +39,7 @@
 
 
     //scroll js
-    smoothScroll.init({
+  smoothScroll.init({
       selector: '[data-scroll]', // Selector for links (must be a valid CSS selector)
       selectorHeader: '[data-scroll-header]', // Selector for fixed headers (must be a valid CSS selector)
       speed: 500, // Integer. How fast to complete the scroll in milliseconds
