@@ -89,14 +89,14 @@
 
 
     //typed js
-    $(".typed").typed({
-        strings: ["We are an internal AR/VR packaging service, set to demystify the world of all 'realities' in the EPC industry. Our vision is to make the delivery of full-stack reality solutions to your job or office as painless as possible. Come join us on the journey!"],
+  //  $(".typed").typed({
+      //  strings: ["All realities.", "Demystified.", "Packaged.", "Shipped.", "All in 1 click."],
 
-        typeSpeed: 70,
-        backDelay: 900,
+      //  typeSpeed: 30,
+      //  backDelay: 100,
         // loop
-        loop: false
-    });
+      //  loop: true,
+  //  });
 
     //owl carousel
     $('.owl-carousel').owlCarousel({

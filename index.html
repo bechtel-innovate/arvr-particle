@@ -123,7 +123,9 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
           <div id="particles-js"></div>
           <div class="content__inner hero-content">
             <h2 class="content__title">Access XR</h2>
-            <h3 class="content__subtitle">We are an X-Reality shop delivering packaged AR/VR/MR solutions direct to your teams.</h2>
+            <h3 class="content__subtitle">We are an X-Reality shop delivering packaged AR/VR/MR solutions
+              direct to your teams.<br>Coming Soon!</br></h2>
+              <div id="countdown"></div>
           </div>
               <div class="mouse-icon margin-20">
                 <div class="scroll"></div>
@@ -150,7 +152,14 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
                     <div class="w-content">
                       <h2>About Us</h2>
                       <p class="head-about">
-                        Design is the method of putting form and content together. Design, just as art, has multiple definitions there is no single definition. Design can be art. Design can be aesthetics. Design is so simple, that's why it is so complicated.
+                        The world of Virtual and Augmented reality is confusing. The technology is moving incredibly fast,
+                        and more and more companies are entering the space as providers of hardware and/or software, which makes
+                        selection and deployment of fit solutions even more difficult.
+                        </p>
+                      <p class="head-about">
+                        That's where we come in. We've done the hard work for you, and have pre-built solutions,
+                        tested in the real world, guaranteed to accelerate the delivery of EPC projects. The question is,
+                        where do you want to start?
                       </p>
                     </div>
                   </div>
@@ -216,7 +225,8 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
                   <span>Services</span>
                 </h3>
                 <p class="content-detail">
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                  We provide packaged hardware+software bundles direct to project, and offer training
+                  to get your team moving quickly in the right direction!
                 </p>
               </div>
               <div class="col-md-9 content-right">
@@ -228,10 +238,11 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
                           c
                         </h3>
                         <p class="head-sm">
-                          MARKETING
+                          AUGMENTED REALITY
                         </p>
                         <p class="text-grey">
-                          Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
+                          Solutions ranging from 2-way video through hard-hat mounted glasses to guided field workflows
+                          with image and video capture.
                         </p>
                       </div>
                     </li>
@@ -242,7 +253,7 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
                           b
                         </h3>
                         <p class="head-sm">
-                          WEB DESIGN
+                          VIRTUAL REALITY
                         </p>
                         <p class="text-grey">
                           Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
@@ -256,7 +267,7 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
                           d
                         </h3>
                         <p class="head-sm">
-                          UI
+                          MIXED REALITY
                         </p>
                         <p class="text-grey">
                           Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
@@ -272,7 +283,7 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
                           f
                         </p>
                         <p class="head-sm">
-                          DIRECTOR
+                          TRAINING
                         </p>
                         <p class="text-grey">
                           Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
@@ -286,7 +297,7 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
                           p
                         </h3>
                         <p class="head-sm">
-                          UX DESIGN
+                          PROJECT CONSULT
                         </p>
                         <p class="text-grey">
                           Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
@@ -300,7 +311,7 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
                           m
                         </h3>
                         <p class="head-sm">
-                          FRONT END
+                          EXPLORERS
                         </p>
                         <p class="text-grey">
                           Typi non habent claritatem insitam est usus legentis in iis qui facit eorum claritatem.
@@ -624,7 +635,6 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
     </div>
     <script src="js/particles.js"></script>
     <script src="js/app.js"></script>
-
     <script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
     <script src="js/jquery.appear.js" type="text/javascript"></script>
     <script src="js/bootstrap.min.js" type="text/javascript"></script>
@@ -634,8 +644,13 @@ We recommend moving this block and the preceding CSS link to the HEAD of your HT
     <script src="js/masonry.pkgd.min.js" type="text/javascript"></script>
     <script src="js/masonry.js" type="text/javascript"></script>
     <script src="js/smooth-scroll.min.js" type="text/javascript"></script>
-    <script src="js/typed.js" type="text/javascript"></script>
     <script src="js/main.js" type="text/javascript"></script>
+    <script src="js/jquery.countdown.js"></script>
+    <script type="text/javascript">
+  $('#countdown').countdown('2018/05/15', function(event) {
+    $(this).html(event.strftime('%w weeks %d days %H:%M:%S'));
+  });
+</script>
     <script type="text/javascript" src="http://downloads.mailchimp.com/js/signup-forms/popup/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">require(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us17.list-manage.com","uuid":"3f9d9abcc312e8713a17c72c5","lid":"a5e4e5a923"}) })</script>
   </body>
 </html>

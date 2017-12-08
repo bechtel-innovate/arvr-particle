@@ -24,5 +24,8 @@
     "scripts": {
       "pre-push": "surge --project ./ --domain http://silky-wash.surge.sh/"
     }
+  },
+  "dependencies": {
+    "jquery-countdown": "^2.2.0"
   }
 }
