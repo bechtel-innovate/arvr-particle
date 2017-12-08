@@ -36,6 +36,16 @@ TABLE OF CONTENTS:
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+    font-family: 'particle_xr';
+    src: url('../fonts/particle_xr.eot');
+    src: url('../fonts/particle_xr.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/particle_xr.woff') format('woff'),
+         url('../fonts/particle_xr.ttf') format('truetype'),
+         url('../fonts/particle_xr.svg#particle_xr') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
 *,
 *:after,
 *:before {
@@ -170,7 +180,7 @@ img { max-width: 100%; }
   font-weight: 400;
   margin-top: 70px;
   line-height: 30px;
-  font-size: 14px;
+  font-size: 1em;
   letter-spacing: 0.4px;
 }
 .content-details {
@@ -706,25 +716,26 @@ ul.portfolio-image li .desc{
 
 /*---------- b. service -----------*/
 .icon-use {
-  font-family: 'Glyphter';
-  font-size: 30px;
-  line-height: 20px;
+  font-family: 'particle_xr';
+  font-size: 2.5em;
   color: #818181;
   margin: 0;
 }
 .head-sm {
-  font-size: 13px;
+  font-size: 1em;
   letter-spacing: 1.5px;
   text-transform: uppercase;
   margin-top: 10px;
   margin-bottom: 20px;
   font-family: 'Work Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 500;
 }
 .text-grey {
   color: #434343;
   line-height: 26px;
   margin-bottom: 60px;
+  font-size: .9em;
+  font-weight: 200;
 }
 /*---------- c. experience -----------*/
 .wrap-card {
@@ -1312,4 +1323,7 @@ ul.portfolio-image li .desc{
   color: #fff;
 font-size: 3em;
 font-family: 'Barlow',sans-serif;
+}
+.title-small{
+  font-size:2em;
 }
